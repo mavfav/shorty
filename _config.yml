@@ -1,0 +1,7 @@
+destination: ./_site
+lsi:         false
+port:        4000
+highligher:  true
+markdown:    rdiscount
+rdiscount:
+  extensions: [smart]

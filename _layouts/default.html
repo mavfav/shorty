@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
+    <style>
+      header { zoom: 1.2; }
+      header h1 { margin-bottom: 5px; }
+      header h1 a { color: #494949; font-weight: bold; }
+      header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header p.view { margin-bottom: 5px; }
+      header p.view small { padding-top: 2px; }
+      header ul {
+        zoom: 0.7;
+        margin-top: 25px;
+      }
+      section p { margin-top: 10px; }
+      section h1 { margin-bottom: 15px; }
+      section h2 { margin-bottom: 10px; }
+      section h2 { margin-bottom: 10px; }
+      footer { bottom: 20px; }
+      footer p { margin-bottom: 5px; }
+      .half-width {
+        float: left;
+        width: 200px;
+        list-style: none;
+        padding: 5px;
+        margin: 7px;
+        margin-bottom: 10px;
+      }
+      .half-width h4 {
+        margin-bottom: 5px;
+      }
+      .half-width ul {
+        padding-left: 0;
+      }
+      .half-width ul li {
+        list-style: inside;
+        font-size: 15px;
+      }
+      .clear-fix {
+        clear: both;
+      }
+    </style>
+    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">priya.rocks</a></h1>
+        <br/>
+	<p class="view">Wsssupp people<br/>
+        I'm Priya Jatarma &amp; this is my site.<br/>
+        I deploy code on servers scattered around the globe for a living.<br/>
+        I like to cook, hangout with friends &amp; eat what I just cooked.</p>
+
+        <h3>I'm also on</h3>
+        <p class="view"><a href="http://fb.me/" target="tab">Facebook&nbsp;&nbsp;<small>i am a total addict</small></a></li>
+        <p class="view"><a href="https://www.linkedin.com/" target="tab">LinkedIn&nbsp;&nbsp;<small>if you wanna hire me</small></a></li>
+        <p class="view"><a href='mailto:pj@priya.rocks?subject=Hi Priya' >Email&nbsp;&nbsp;<small>if you must</small></a></li>
+      </header>
+      <section id="main">
+        {{ content }}
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script src="js/libs/jquery-1.6.2.min.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
